@@ -175,6 +175,7 @@ public class ItemInfinity extends IFCustomItem implements MenuProvider, IButtonH
     }
 
     @Override
+    @SuppressWarnings("removal")
     public boolean onEntitySwing(ItemStack stack, LivingEntity entity) {
         return true;
     }
